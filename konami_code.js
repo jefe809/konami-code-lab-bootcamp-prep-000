@@ -6,8 +6,11 @@ function init() {
     if(key === code[index]){
       index++;
       if(index === code.length){
-        alert("Hurra")
+        alert("Hurray");
+        index = 0;
       }
+    } else{
+      index = 0;
     }
   });
 }
